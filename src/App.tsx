@@ -24,8 +24,7 @@ function App() {
                 <Chat />
               </Route>
               <Route path="/">
-                {/* <h2>Home screen</h2> */}
-                <Chat />
+                <h2 className="welcome">Welcome back....</h2>
               </Route>
             </Switch>
           </Router>
